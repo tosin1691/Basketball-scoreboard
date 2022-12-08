@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    text-align: center;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: #545E75;
+    border-radius: 5px;
+}
+
+.scoreboard{
+    
+}
+@font-face {
+    font-family: scorecard;
+    src: url("technology.bold.ttf")
+}
+
+.heading {
+    margin: 20px 0px 5px;
+    color: white;
+    font-size: 30px;
+    
+}
+
+.score {
+    font-family: scorecard;
+    color: #CE5374;
+    background: black;
+    font-size: 70px;
+    margin: 0px 0px;
+    border-radius: 4px;
+    width: 100px;
+}
+
+.score-add {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px 0px 50px;
+
+}
+
+.add {
+    border: 1px solid #DDF0FF;
+    font-family: scorecard;
+    font-size: 10px;
+    color: #DDF0FF;
+    padding: 5px 5px;
+    border-radius: 4px;
+
+    
+}
+
